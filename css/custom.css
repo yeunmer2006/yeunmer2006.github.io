@@ -1,0 +1,36 @@
+#footer {
+    /* 1. 设置路径：确保你的图片叫 footer.jpg 且在 source/img 下 */
+    background: url('/img/footer.jpg');
+    
+    /* 2. 关键设置：让图片自动充满区域，不会变形，但会裁剪 */
+    background-size: cover;
+    
+    /* 3. 位置设置：通常我们要显示图片的中下部分（比如海平面） */
+    /* center center = 居中 */
+    /* center bottom = 显示底部 */
+    background-position: center center;
+    
+    /* 4. 不重复铺贴 */
+    background-repeat: no-repeat;
+    
+    /* 5. 颜色设置：文字白色 */
+    color: #ffffff;
+    
+    /* 6. (可选) 如果你的图比较矮，不想被切太多，可以手动把页脚撑高一点 */
+    /* padding: 80px 20px; */
+}
+
+/* 链接也是白色 */
+#footer a {
+    color: #ffffff;
+}
+
+/* 首页大标题文字阴影 */
+#site_title {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+/* 打字机副标题文字阴影 */
+#subtitle {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
